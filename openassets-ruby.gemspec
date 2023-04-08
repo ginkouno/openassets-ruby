@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
   spec.add_runtime_dependency "bitcoin-ruby", "~> 0.0.18"
-  spec.add_runtime_dependency "ffi", "~>1.9.8"
+  spec.add_runtime_dependency "ffi", "~>1.15.5"
   spec.add_runtime_dependency "rest-client", "2.0.2"
   spec.add_runtime_dependency "httpclient"
   spec.add_runtime_dependency "sqlite3"
